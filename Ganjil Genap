@@ -1,0 +1,19 @@
+#include <iostream>
+// Program untuk Menentukan sebuah bilangan genap atau ganjil
+// Dengan lanjutan untuk menentukan apakah hasil tersebut merupakan bilangan prima atau tidak
+using namespace std;
+ 
+int main()
+{
+    int number, remainder;
+ 
+    cout << "Masukkan Angka : ";
+    cin >> number;
+    remainder = number % 2;
+    if (remainder == 0)
+        cout << number << " Adalah bilangan genap " << endl;
+    else
+        cout << number << " Adalah bilangan ganjil " << endl;
+ 
+    return 0;
+}
